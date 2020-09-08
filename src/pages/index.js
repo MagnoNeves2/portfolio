@@ -1,14 +1,28 @@
-import React from "react"
-import Header from '../components/header'
-import { Link } from "gatsby"
+import React from "react";
+import Header from '../components/header';
+import Container from '../components/container';
+import { Link, graphql } from "gatsby";
 
-export default () =>
-  <div>
-    <Header title="Home" />
+export default ({ data }) =>
+
+  <Container>
+    <Header title={data.site.siteMetadata.homePage.title} />
 
     <p>
-      Página bonitona com vários projetos.
+      {data.site.siteMetadata.homePage.p}
     </p>
     <Link to="sobre">Sobre</Link>
-  </div>
+  </Container>
 
+export const query = graphql`
+{
+  site(siteMetadata: {}) {
+    siteMetadata {
+      homePage {
+        p
+        title
+      }
+    }
+  }
+}
+`
