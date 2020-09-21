@@ -6,7 +6,16 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      }
+    },
+    'gatsby-transformer-remark'
+  ],
   siteMetadata: {
     footerText: 'Magão codando!',
     homePage: {

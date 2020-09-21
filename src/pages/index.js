@@ -12,6 +12,8 @@ export default ({ data }) =>
       {data.site.siteMetadata.homePage.p}
     </p>
     <Link to="sobre">Sobre</Link>
+    <br />
+    <Link to="projetos">Projetos</Link>
   </Container>
 
 export const query = graphql`
