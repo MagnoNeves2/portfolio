@@ -8,9 +8,9 @@ module.exports = {
   /* Your site config here */
   plugins: [
     {
-      resolve: `gatsby-plugin-sass`,
-      potions: {
-        PostCssPlugins: [
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        postCssPlugins: [
           require("tailwindcss")
         ]
       }
@@ -25,6 +25,25 @@ module.exports = {
     'gatsby-transformer-remark'
   ],
   siteMetadata: {
+    presentation: {
+      hi: 'Olá, eu sou o',
+      name: 'Magno Neves',
+      title: 'Desenvolvedor web Full-stack Júnior',
+      socialMedia: [
+        {
+          name: 'github',
+          link: 'https://github.com/MagnoNeves2'
+        },
+        {
+          name: 'instagram',
+          link: 'https://www.instagram.com/magno_neves/'
+        },
+        {
+          name: 'linkedin',
+          link: 'https://www.linkedin.com/in/magnoneves/'
+        }
+      ]
+    },
     footerText: 'Magão codando!',
     homePage: {
       title: 'Página Inicial',
