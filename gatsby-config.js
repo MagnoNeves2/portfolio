@@ -55,6 +55,25 @@ module.exports = {
       amante da tecnologia é viver uma paixão diariamente.`,
       photoUrl: 'https://pt.gravatar.com/userimage/186220469/eb785a35cb5361076307f0c70470428b.jpg?size=200'
     },
+    jobs: [
+      {
+        date: '05/2013 - atual',
+        project: 'Thomson Reuters',
+        role: 'Desenvolvedor Sênior',
+        description: `<p>Atuo na criação de uma plataforma para software jurídico desenvolvendo
+        novas features, correções de bugs e ajudando tecnicamente todos os times
+        (Desenvolvimento, Qualidade, Especificação e Analistas de requisitos).</p>
+        <p><strong>Tecnologias: </strong>HTML, CSS, JavaScript, C#, ASP NET MVC, ASP.NET Web API, .Net Core, Angular, SQL Server e Scrum.</p>`
+      },
+      {
+        date: '09/2009 - 05/2013',
+        project: 'CEOsoftware',
+        role: 'Desenvolvedor .Net',
+        description: `<p>Desenvolvimento de novas features, correções de bugs e melhorias em geral para mobile, web e desktop. </p>
+        <p><strong>Tecnologias: </strong>HTML, CSS, JavaScript, VB.NET, ASP NET Web Forms, ASP NET Windows Forms, 
+        ASP.NET Soap web service, SQL Server, Windows Mobile e Android.</p>`
+      }
+    ],
     footerText: 'Magão codando!',
     homePage: {
       title: 'Página Inicial',
