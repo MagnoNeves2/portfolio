@@ -21,7 +21,7 @@ const About = () => {
   `)
 
   return (
-    <Section id="sobre" className="bg-gray-100" title="Sobre mim">
+    <Section id="about" className="bg-gray-100" title="Sobre mim">
       <p className="text-center">
         <img src={data.site.siteMetadata.aboutMe.photoUrl}
           className="rounded-full border-8 border-white shadow-xl inline-block my-5"

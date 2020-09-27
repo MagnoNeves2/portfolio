@@ -47,7 +47,7 @@ const Header = () => {
           }
         </div>
 
-        <a href="#contato" className="btn btn-xl btn-outline-light">Contato</a>
+        <a href="/#contact" className="btn btn-xl btn-outline-light">Contato</a>
       </div>
 
     </header>
