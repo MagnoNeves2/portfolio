@@ -86,5 +86,14 @@ module.exports = {
       { name: 'Git', progress: 75 },
       { name: 'MySql', progress: 75 }
     ],
+    footerText: 'Magão codando!',
+    homePage: {
+      title: 'Página Inicial',
+      p: 'Página bonitona com vários projetos.'
+    },
+    aboutPage: {
+      title: 'Sobre',
+      p: 'Aqui encontra-se tudo sobre o meu ser!'
+    }
   }
 }
