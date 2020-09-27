@@ -74,7 +74,18 @@ module.exports = {
         ASP.NET Soap web service, SQL Server, Windows Mobile e Android.</p>`
       }
     ],
-    projects: [],
+    skills: [
+      { name: 'HTML', progress: 75 },
+      { name: 'CSS', progress: 75 },
+      { name: 'JavaScript', progress: 75 },
+      { name: 'Java', progress: 50 },
+      { name: 'Node JS', progress: 50 },
+      { name: 'Angular 9', progress: 75 },
+      { name: 'Spring Boot', progress: 75 },
+      { name: 'Bootstrap', progress: 75 },
+      { name: 'Git', progress: 75 },
+      { name: 'MySql', progress: 75 }
+    ],
     footerText: 'Magão codando!',
     homePage: {
       title: 'Página Inicial',
