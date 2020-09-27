@@ -57,21 +57,21 @@ module.exports = {
     },
     jobs: [
       {
-        date: '05/2013 - atual',
-        project: 'Thomson Reuters',
-        role: 'Desenvolvedor Sênior',
-        description: `<p>Atuo na criação de uma plataforma para software jurídico desenvolvendo
-        novas features, correções de bugs e ajudando tecnicamente todos os times
-        (Desenvolvimento, Qualidade, Especificação e Analistas de requisitos).</p>
-        <p><strong>Tecnologias: </strong>HTML, CSS, JavaScript, C#, ASP NET MVC, ASP.NET Web API, .Net Core, Angular, SQL Server e Scrum.</p>`
+        date: '27/09/2020',
+        project: 'Portfolio',
+        role: 'Desenvolvedor',
+        description: `<p>Criação do portfolio para a exposição dos projetos que já desenvolvi e fiz participações
+         ao longo da minha atuação como desenvolvedor. Além de listar e contar um pouco sobre cada projeto,
+         há também seções em que falo um pouco mais sobre mim e minhas qualificações como profissional.  </p>
+        <p><strong>Tecnologias: </strong>HTML, CSS, JavaScript, ReactJS, GatsbyJs, TailwindCSS, SASS.</p>`
       },
       {
-        date: '09/2009 - 05/2013',
-        project: 'CEOsoftware',
-        role: 'Desenvolvedor .Net',
-        description: `<p>Desenvolvimento de novas features, correções de bugs e melhorias em geral para mobile, web e desktop. </p>
-        <p><strong>Tecnologias: </strong>HTML, CSS, JavaScript, VB.NET, ASP NET Web Forms, ASP NET Windows Forms, 
-        ASP.NET Soap web service, SQL Server, Windows Mobile e Android.</p>`
+        date: '10/07/2020',
+        project: 'Momentum',
+        role: 'Desenvolvedor Full-stack (com foco no Back-end)',
+        description: `<p>O Momentum é Uma rede social com o intuito de facilitar à busca por informações, compartilhamentos de depoimentos 
+        e/ou locais de acolhimento para pessoas com depressão e ansiedade.</p>
+        <p><strong>Tecnologias: </strong>HTML, CSS, JavaScript, Angular 9, Spring Boot, Java 8, MySQL</p>`
       }
     ],
     skills: [
