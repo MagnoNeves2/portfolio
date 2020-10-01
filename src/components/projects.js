@@ -4,7 +4,7 @@ import Section from './section';
 import Project from './project';
 
 const Projects = (props) => {
-    const data = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     {
         allMarkdownRemark {
             edges {
@@ -25,23 +25,23 @@ const Projects = (props) => {
         }
     }
   `)
-    const top = props.limit ? props.limit : data.allMarkdownRemark.edges.length;
-    const projects = data.allMarkdownRemark.edges.slice(0, top);
+  const top = props.limit ? props.limit : data.allMarkdownRemark.edges.length;
+  const projects = data.allMarkdownRemark.edges.slice(0, top);
 
-    return (
-        <Section id="projects" className="bg-gray-100" title="Acesso aos projetos">
-            {projects.map(({ node }) => (
-                <Project key={node.id} project={node} />
-            ))}
+  return (
+    <Section id="projects" className="bg-gray-100" title="Acesso aos projetos">
+      {projects.map(({ node }) => (
+        <Project key={node.id} project={node} />
+      ))}
 
-            {data.allMarkdownRemark.edges.length > top &&
-                <div className="text-center">
-                    <Link to="projetos" className="btn btn-primary">Ver todos</Link>
-                </div>
-            }
+      {data.allMarkdownRemark.edges.length > top &&
+        <div className="text-center">
+          <Link to="projetos" className="btn btn-primary">Ver todos</Link>
+        </div>
+      }
 
-        </Section >
-    )
+    </Section >
+  )
 }
 
 export default Projects

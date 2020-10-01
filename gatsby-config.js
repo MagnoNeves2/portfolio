@@ -28,7 +28,7 @@ module.exports = {
     presentation: {
       hi: 'Olá, eu sou o',
       name: 'Magno Neves',
-      title: 'Desenvolvedor web Full-stack Júnior',
+      title: 'Desenvolvedor Web Full-stack Júnior',
       socialMedia: [
         {
           name: 'github',
@@ -59,17 +59,26 @@ module.exports = {
       {
         date: '27/09/2020',
         project: 'Portfolio',
-        role: 'Desenvolvedor',
+        role: 'Desenvolvedor Full-stack',
         description: `<p>Criação do portfolio para a exposição dos projetos que já desenvolvi e fiz participações
          ao longo da minha atuação como desenvolvedor. Além de listar e contar um pouco sobre cada projeto,
          há também seções em que falo um pouco mais sobre mim e minhas qualificações como profissional.  </p>
-        <p><strong>Tecnologias: </strong>HTML, CSS, JavaScript, ReactJS, GatsbyJs, TailwindCSS, SASS.</p>`
+        <p><strong>Tecnologias: </strong>HTML, SCSS, JavaScript, ReactJS, GatsbyJs, TailwindCSS.</p>`
+      },
+      {
+        date: '24/08/2020',
+        project: 'Union',
+        role: 'Desenvolvedor Full-stack',
+        description: `<p>A Union é uma plataforma criada com o intuito de facilitar a procura e o acesso das 
+        pessoas aos cursos gratuitos que existem e estão espalhados pela internet. Além de ser uma plataforma 
+        integradora entre usuários e conteúdos gratuitos, há a possibilidade de interações e recomendações entre os usúarios cadastrados.</p>
+        <p><strong>Tecnologias: </strong>HTML, CSS, JavaScript, Angular 9, Spring Boot, Java 8, MySQL</p>`
       },
       {
         date: '10/07/2020',
         project: 'Momentum',
         role: 'Desenvolvedor Full-stack (com foco no Back-end)',
-        description: `<p>O Momentum é Uma rede social com o intuito de facilitar à busca por informações, compartilhamentos de depoimentos 
+        description: `<p>O Momentum é uma rede social com o intuito de facilitar à busca por informações, compartilhamentos de depoimentos 
         e/ou locais de acolhimento para pessoas com depressão e ansiedade.</p>
         <p><strong>Tecnologias: </strong>HTML, CSS, JavaScript, Angular 9, Spring Boot, Java 8, MySQL</p>`
       }
