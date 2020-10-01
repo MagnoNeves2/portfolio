@@ -61,8 +61,8 @@ module.exports = {
         project: 'Portfolio',
         role: 'Desenvolvedor Full-stack',
         description: `<p>Criação do portfolio para a exposição dos projetos que já desenvolvi e fiz participações
-         ao longo da minha atuação como desenvolvedor. Além de listar e contar um pouco sobre cada projeto,
-         há também seções em que falo um pouco mais sobre mim e minhas qualificações como profissional.  </p>
+        ao longo da minha atuação como desenvolvedor. Além de listar e contar um pouco sobre cada projeto,
+        há também seções em que falo um pouco mais sobre mim e minhas qualificações como profissional.</p>
         <p><strong>Tecnologias: </strong>HTML, SCSS, JavaScript, ReactJS, GatsbyJs, TailwindCSS.</p>`
       },
       {
@@ -95,14 +95,5 @@ module.exports = {
       { name: 'Git', progress: 75 },
       { name: 'MySql', progress: 75 }
     ],
-    footerText: 'Magão codando!',
-    homePage: {
-      title: 'Página Inicial',
-      p: 'Página bonitona com vários projetos.'
-    },
-    aboutPage: {
-      title: 'Sobre',
-      p: 'Aqui encontra-se tudo sobre o meu ser!'
-    }
   }
 }
