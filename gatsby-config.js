@@ -47,8 +47,8 @@ module.exports = {
     aboutMe: {
       title: 'Amante de tecnologias e com 1 ano de experiência na área!',
       description: `Persistente, curioso, focado e amante de tecnologia. Entusiasta de
-      soluções e inovações. Me considero alguém com alto learning
-      agility, o que me ajuda a realizar atividades simultâneas com êxito.
+      soluções e inovações. Me considero alguém com alta agilidade de aprendizado, 
+      o que me ajuda a realizar atividades simultâneas com êxito.
       Minha persistência me ajuda a ampliar meus conhecimentos e
       realizações todos os dias. Minha curiosidade ajuda a explorar
       cenários improváveis. Meu foco ajuda na gestão de recursos. Ser

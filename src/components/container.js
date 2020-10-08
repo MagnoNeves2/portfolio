@@ -4,6 +4,6 @@ export default ({ children }) => {
     return (
         <div div className="mx-auto" >
             {children}
-        </div >
+        </div>
     )
 }
