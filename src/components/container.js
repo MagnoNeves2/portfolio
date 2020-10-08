@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './container.module.scss';
 
-export default ({ children }) => {
+const Container = ({ children }) => {
     return (
         <div div className="mx-auto" >
             {children}
@@ -24,3 +24,4 @@ export default ({ children }) => {
         </div>
     )
 }
+export default Container
