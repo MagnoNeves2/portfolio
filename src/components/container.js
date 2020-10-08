@@ -1,13 +1,14 @@
 import React from 'react';
 import styles from './container.module.scss';
 
-const Container = ({ children }) => {
+export default ({ children }) => {
     return (
         <div div className="mx-auto" >
             {children}
             <button type="button" id="btn" className={styles.btnTop}>&#9650;</button>
             {
-                window.onscroll = function () {
+
+                onscroll = function () {
                     const btn = document.getElementById("btn");
 
                     btn.addEventListener("click", () => {
@@ -24,4 +25,3 @@ const Container = ({ children }) => {
         </div>
     )
 }
-export default Container
