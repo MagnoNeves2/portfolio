@@ -1,0 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.btnTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50vh;
+    @apply bg-gray-900 text-white border-0;
+}
