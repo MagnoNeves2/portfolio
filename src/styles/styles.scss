@@ -2,6 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+html {
+    scroll-behavior: smooth;
+}
+
 .btn {
   @apply inline-block rounded-full px-10 py-2;
 }
