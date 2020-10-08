@@ -18,9 +18,8 @@
 </div>
 <br>
 
-<p align = center>
   <a style="padding: 20px; background-color: gray; color: white; border-radius: 20px; font-size: 1em; " href="https://portfolio-magao.netlify.app" target="_blank">Acesse o portfolio</a>
-</p>
+  
 <br>
 
 ### :computer: Tecnologias
