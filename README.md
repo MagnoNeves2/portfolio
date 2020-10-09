@@ -19,7 +19,9 @@
 <br>
 
 <p align = center>
-  <a style="padding: 20px; background-color: gray; color: white; border-radius: 20px; font-size: 1em; " href="https://portfolio-magao.netlify.app" target="_blank">Acesse o portfolio</a>
+  <a href="https://portfolio-magao.netlify.app" target="_blank">
+    <img src="./src/assets/botao.png" alt="Imagem ilustrativa de um botão em que está escrito Acesse." width="150px">
+  </a>
 </p>
 <br>
 
