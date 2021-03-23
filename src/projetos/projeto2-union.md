@@ -1,6 +1,6 @@
 ---
 title: "Union"
-date: "2019-08-24"
+date: "2020-08-24"
 techs: "HTML, CSS, JavaScript, Angular 9, Spring Boot, Java 8, MySQL"
 img: "https://i.imgur.com/IumyUGR.png"
 ---
